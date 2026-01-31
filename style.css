@@ -339,6 +339,57 @@ strong{ font-weight: 700; }
 }
 
 /* Hero card */
+/* =========================
+   Foto de perfil
+========================= */
+.profile{
+  display: grid;
+  justify-items: center;
+  gap: .65rem;
+  padding: 1.1rem 1.2rem .6rem;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.profile-img{
+   width: 250px;
+  height: 250px;
+  border-radius: 22px;   /* <- menos redondo */
+  object-fit: cover;
+
+  border: 1px solid rgba(255,255,255,.18);
+  box-shadow: 0 18px 50px rgba(0,0,0,.35);
+}
+
+.profile-img{
+  width: 170px;
+  height: 220px;
+
+  object-fit: cover;
+  object-position: center 10%;
+
+  border-radius: 22px;
+}
+
+
+
+
+.profile-text{
+  text-align: center;
+}
+
+.profile-name{
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: -.02em;
+}
+
+.profile-role{
+  margin: .15rem 0 0;
+  color: rgba(255,255,255,.70);
+  font-size: .95rem;
+}
+
+
 .hero-card{
   border-radius: var(--radius2);
   background:
@@ -895,4 +946,14 @@ html, body { overflow-x: hidden; }
 
 .to-top:hover{
   background: rgba(255,255,255,.12);
+}
+.contact-box{
+  margin-top: 1rem;
+  display: grid;
+  gap: .6rem;
+}
+
+.contact-box a{
+  color: var(--brand);
+  font-weight: 700;
 }

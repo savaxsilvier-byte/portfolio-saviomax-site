@@ -75,4 +75,17 @@ scrollTopButtons.forEach((btn) => {
   btn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
+  const copyBtn = document.querySelector("[data-copy-email]");
+if (copyBtn) {
+  copyBtn.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText("savaxsilvier@gmail.com");
+      copyBtn.textContent = "Copiado ✅";
+      setTimeout(() => (copyBtn.textContent = "Copiar email"), 1400);
+    } catch {
+      alert("Copie manualmente: savaxsilvier@gmail.com");
+    }
+  });
+}
+
 });
