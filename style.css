@@ -957,3 +957,25 @@ html, body { overflow-x: hidden; }
   color: var(--brand);
   font-weight: 700;
 }
+
+.profile-img {
+  max-height: 420px;
+  width: auto;
+  display: block;
+
+  /* recorte e alinhamento */
+  object-fit: contain;
+
+  /* visual elegante */
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.45));
+  transition: transform 0.4s ease, filter 0.4s ease;
+
+  /* suaviza bordas do PNG */
+  image-rendering: auto;
+}
+
+/* leve destaque ao passar o mouse */
+.profile-img:hover {
+  transform: translateY(-6px);
+  filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.55));
+}
