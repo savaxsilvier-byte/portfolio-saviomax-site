@@ -979,3 +979,31 @@ html, body { overflow-x: hidden; }
   transform: translateY(-6px);
   filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.55));
 }
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+/* container da foto */
+.profile-photo {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* imagem */
+.profile-img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+
+  filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.45));
+}
+
+@media (max-width: 768px) {
+  .profile-photo {
+    max-width: 260px;
+  }
+}
