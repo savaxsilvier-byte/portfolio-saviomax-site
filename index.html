@@ -1,464 +1,547 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Sávio Max — manutenção e melhorias rápidas para sites: responsivo, bugs, performance e visual. Orçamento rápido no WhatsApp." />
-  <title>Sávio Max — Manutenção e Melhorias de Sites</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <!-- Acessibilidade: link para pular navegação -->
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-
-  <!-- Top bar -->
-  <header class="site-header" id="topo">
-    <div class="container header-inner">
-      
-
-
-        <span class="brand-mark" aria-hidden="true">SM</span>
-        <span class="brand-text">Sávio <strong>Max</strong></span>
-      </a>
-
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
-        <span class="sr-only">Abrir menu</span>
-        <span class="nav-toggle-bars" aria-hidden="true"></span>
-      </button>
-
-      <nav class="nav" id="menu" aria-label="Navegação principal">
-        <a href="#servicos">Serviços</a>
-        <a href="#provas">Antes &amp; Depois</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#processo">Como funciona</a>
-        <a href="#faq">FAQ</a>
-        <a class="nav-cta" href="#contato">Contato</a>
-        
-
-      </nav>
-    </div>
-  </header>
-
-  <main id="conteudo">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="pill">
-            <span aria-hidden="true">⚡</span> Manutenção • Melhorias rápidas • Responsivo • Performance
-          </p>
-
-          <h1>
-            Eu <span class="accent">arrumo</span>, <span class="accent2">melhoro</span> e deixo seu site
-            <span class="underline">mais profissional</span>.
-          </h1>
-
-          <p class="lead">
-            Sou <strong>Sávio Max</strong>. Faço correções e melhorias em sites com entregas curtas:
-            layout no mobile, bugs visuais, ajustes de conteúdo, velocidade e melhorias de experiência.
-          </p>
-
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="https://wa.me/5537984254242" target="_blank" rel="noreferrer">
-              Falar no WhatsApp
-              <span aria-hidden="true">→</span>
-            </a>
-            <a class="btn btn-ghost" href="#projetos">
-              Ver projetos
-            </a>
-          </div>
-
-          <ul class="hero-stats" role="list">
-            <li>
-              <span class="stat-num">24–72h</span>
-              <span class="stat-label">pra ajustes comuns</span>
-            </li>
-            <li>
-              <span class="stat-num">Mobile</span>
-              <span class="stat-label">primeiro, sempre</span>
-            </li>
-            <li>
-              <span class="stat-num">Checklist</span>
-              <span class="stat-label">antes de entregar</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="hero-card" aria-label="Card com exemplos do que eu conserto">
-          <div class="profile">
-  <div class="profile-text">
-    <p class="profile-name">Sávio Max</p>
-    <p class="profile-role">Frontend • Manutenção • Sites rápidos</p>
-  </div>
-</div>
-
-
-<div class="hero-right">
-
-  <!-- FOTO LIVRE -->
-  <div class="profile-photo">
-    <img class="profile-img" src="assets/img/savio.png" alt="Foto de Sávio Max">
-  </div>
-
-  <!-- CARD SEPARADO -->
-  <div class="profile-card">
-    <h3 class="center">Sávio Max</h3>
-    <p>Frontend • Manutenção • Sites rápidos</p>
-
-  </div>
-
-</div>
-
-
-      <!-- fundo decorativo -->
-      <div class="blob blob-a" aria-hidden="true"></div>
-      <div class="blob blob-b" aria-hidden="true"></div>
-      <div class="blob blob-c" aria-hidden="true"></div>
-    </section>
-
-    <!-- SERVIÇOS -->
-    <section class="section" id="servicos">
-      <div class="container">
-        <header class="section-head">
-          <h2>O que eu resolvo</h2>
-          <p>Serviços focados em manutenção e melhorias (sem enrolação).</p>
-        </header>
-
-        <div class="cards">
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">📱</div>
-            <h3>Responsividade (Mobile)</h3>
-            <p>Corrijo quebras, overflow, botões espremidos e layout desalinhado no celular.</p>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">🧩</div>
-            <h3>Correções rápidas</h3>
-            <p>Arrumo bugs visuais e problemas que impedem o usuário de clicar, navegar ou entender.</p>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">🎨</div>
-            <h3>Melhorias visuais</h3>
-            <p>Refino espaçamento, tipografia, hierarquia e consistência para ficar mais profissional.</p>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">🚀</div>
-            <h3>Performance</h3>
-            <p>Otimizo imagens, fontes e detalhes que deixam o site lento (principalmente no mobile).</p>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">📝</div>
-            <h3>Conteúdo e CTAs</h3>
-            <p>Troca de textos/imagens, criação de seção, botões de contato e melhorias de conversão.</p>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">🌍</div>
-            <h3>Publicação (Deploy)</h3>
-            <p>Deixo o site no ar com link de acesso e instruções simples pro cliente.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ANTES E DEPOIS -->
-    <section class="section alt" id="provas">
-      <div class="container">
-        <header class="section-head">
-          <h2>Antes &amp; Depois</h2>
-          <p>Exemplos de problemas comuns que eu resolvo em manutenção.</p>
-        </header>
-
-        <div class="before-after">
-          <article class="ba">
-            <h3>Menu mobile</h3>
-            <div class="ba-grid">
-              <div class="ba-box">
-                <p class="ba-tag">Antes</p>
-                <ul role="list">
-                  <li>Menu cobre a tela</li>
-                  <li>Não fecha</li>
-                  <li>Links pequenos</li>
-                </ul>
-              </div>
-              <div class="ba-box good">
-                <p class="ba-tag">Depois</p>
-                <ul role="list">
-                  <li>Abre/fecha suave</li>
-                  <li>Foco e acessibilidade</li>
-                  <li>Toque confortável</li>
-                </ul>
-              </div>
-            </div>
-          </article>
-
-          <article class="ba">
-            <h3>Layout quebrando</h3>
-            <div class="ba-grid">
-              <div class="ba-box">
-                <p class="ba-tag">Antes</p>
-                <ul role="list">
-                  <li>Overflow lateral</li>
-                  <li>Cards desalinhados</li>
-                  <li>Espaçamento estranho</li>
-                </ul>
-              </div>
-              <div class="ba-box good">
-                <p class="ba-tag">Depois</p>
-                <ul role="list">
-                  <li>Grid consistente</li>
-                  <li>Tipografia melhor</li>
-                  <li>Visual mais limpo</li>
-                </ul>
-              </div>
-            </div>
-          </article>
-
-          <article class="ba">
-            <h3>Velocidade</h3>
-            <div class="ba-grid">
-              <div class="ba-box">
-                <p class="ba-tag">Antes</p>
-                <ul role="list">
-                  <li>Imagens pesadas</li>
-                  <li>Fonte lenta</li>
-                  <li>Carregamento ruim</li>
-                </ul>
-              </div>
-              <div class="ba-box good">
-                <p class="ba-tag">Depois</p>
-                <ul role="list">
-                  <li>Imagens otimizadas</li>
-                  <li>Melhor LCP/CLS</li>
-                  <li>Mobile mais rápido</li>
-                </ul>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <p class="note">
-          * Esses são exemplos típicos. Conforme seus projetos reais entrarem, a gente substitui por casos reais com links.
-        </p>
-      </div>
-    </section>
-
-    <!-- PROJETOS -->
-    <section class="section" id="projetos">
-      <div class="container">
-        <header class="section-head">
-          <h2>Projetos</h2>
-          <p>Alguns exemplos (podem ser fictícios no início — o importante é mostrar entrega e qualidade).</p>
-        </header>
-
-        <div class="projects">
-          <article class="project">
-            <div class="project-thumb" aria-hidden="true">
-              <span class="thumb-badge">Landing</span>
-            </div>
-            <h3>Pet Shop Amigo Animal</h3>
-            <p>Landing responsiva com CTA no WhatsApp, serviços e depoimentos.</p>
-            <div class="project-links">
+diff --git a/index.html b/index.html
+index 917bcadb7a9534e3f1d2c50d381c58c88d8a54bf..a6ba752a4c47d2068ed842f161e8e319179f6cb0 100644
+--- a/index.html
++++ b/index.html
+@@ -1,464 +1,432 @@
+ <!doctype html>
+ <html lang="pt-BR">
+ <head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+-  <meta name="description" content="Sávio Max — manutenção e melhorias rápidas para sites: responsivo, bugs, performance e visual. Orçamento rápido no WhatsApp." />
+-  <title>Sávio Max — Manutenção e Melhorias de Sites</title>
++  <meta name="description" content="Landing Page Express em 24 a 72 horas: página focada em captar contatos, vender e passar confiança. Manutenção sob demanda, à combinar." />
++  <title>Sávio Max — Landing Page Express</title>
+ 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+ 
+   <link rel="stylesheet" href="style.css" />
+ </head>
+ 
+ <body>
+   <!-- Acessibilidade: link para pular navegação -->
+   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+ 
+   <!-- Top bar -->
+   <header class="site-header" id="topo">
+     <div class="container header-inner">
+       
+ 
+ 
+         <span class="brand-mark" aria-hidden="true">SM</span>
+         <span class="brand-text">Sávio <strong>Max</strong></span>
+       </a>
+ 
+       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+         <span class="sr-only">Abrir menu</span>
+         <span class="nav-toggle-bars" aria-hidden="true"></span>
+       </button>
+ 
+       <nav class="nav" id="menu" aria-label="Navegação principal">
+         <a href="#servicos">Serviços</a>
+         <a href="#provas">Antes &amp; Depois</a>
+         <a href="#projetos">Projetos</a>
+         <a href="#processo">Como funciona</a>
+         <a href="#faq">FAQ</a>
+         <a class="nav-cta" href="#contato">Contato</a>
+         
+ 
+       </nav>
+     </div>
+   </header>
+ 
+   <main id="conteudo">
+     <!-- HERO -->
+     <section class="hero">
+       <div class="container hero-grid">
+         <div class="hero-copy">
+           <p class="pill">
+-            <span aria-hidden="true">⚡</span> Manutenção • Melhorias rápidas • Responsivo • Performance
++            <span aria-hidden="true">⚡</span> Serviço principal: Landing Page Express (24–72h)
+           </p>
+ 
+           <h1>
+-            Eu <span class="accent">arrumo</span>, <span class="accent2">melhoro</span> e deixo seu site
+-            <span class="underline">mais profissional</span>.
++            Sua <span class="accent">landing page pronta</span> em até 72h para
++            <span class="underline">captar mais contatos e vender com clareza</span>.
+           </h1>
+ 
+           <p class="lead">
+-            Sou <strong>Sávio Max</strong>. Faço correções e melhorias em sites com entregas curtas:
+-            layout no mobile, bugs visuais, ajustes de conteúdo, velocidade e melhorias de experiência.
++            Eu crio páginas diretas, pensadas para celular e com foco em conversão: mensagem clara, chamada para ação forte e estrutura para gerar confiança.
+           </p>
+ 
+           <div class="hero-actions">
+             <a class="btn btn-primary" href="https://wa.me/5537984254242" target="_blank" rel="noreferrer">
+-              Falar no WhatsApp
++              Quero minha Landing Express
+               <span aria-hidden="true">→</span>
+             </a>
+             <a class="btn btn-ghost" href="#projetos">
+-              Ver projetos
++              Ver exemplos
+             </a>
+           </div>
+ 
+           <ul class="hero-stats" role="list">
+             <li>
+-              <span class="stat-num">24–72h</span>
+-              <span class="stat-label">pra ajustes comuns</span>
++              <span class="stat-num">Entrega rápida</span>
++              <span class="stat-label">Sua página no ar em 24–72h</span>
+             </li>
+             <li>
+-              <span class="stat-num">Mobile</span>
+-              <span class="stat-label">primeiro, sempre</span>
++              <span class="stat-num">Foco em celular</span>
++              <span class="stat-label">Experiência simples para quem decide rápido</span>
+             </li>
+             <li>
+-              <span class="stat-num">Checklist</span>
+-              <span class="stat-label">antes de entregar</span>
++              <span class="stat-num">Conversão</span>
++              <span class="stat-label">Estrutura para captar leads e pedidos</span>
+             </li>
+           </ul>
+         </div>
+ 
+         <div class="hero-card" aria-label="Card com exemplos do que eu conserto">
+           <div class="profile">
+   <div class="profile-text">
+     <p class="profile-name">Sávio Max</p>
+     <p class="profile-role">Frontend • Manutenção • Sites rápidos</p>
+   </div>
+ </div>
+ 
+ 
+ <div class="hero-right">
+ 
+   <!-- FOTO LIVRE -->
+   <div class="profile-photo">
+     <img class="profile-img" src="assets/img/savio.png" alt="Foto de Sávio Max">
+   </div>
+ 
+   <!-- CARD SEPARADO -->
+   <div class="profile-card">
+     <h3 class="center">Sávio Max</h3>
+     <p>Frontend • Manutenção • Sites rápidos</p>
+ 
+   </div>
+ 
+ </div>
+ 
+ 
+       <!-- fundo decorativo -->
+       <div class="blob blob-a" aria-hidden="true"></div>
+       <div class="blob blob-b" aria-hidden="true"></div>
+       <div class="blob blob-c" aria-hidden="true"></div>
+     </section>
+ 
+     <!-- SERVIÇOS -->
+     <section class="section" id="servicos">
+       <div class="container">
+         <header class="section-head">
+-          <h2>O que eu resolvo</h2>
+-          <p>Serviços focados em manutenção e melhorias (sem enrolação).</p>
++          <h2>Serviços</h2>
++          <p>Oferta simples e direta para tirar sua página do papel sem perder tempo.</p>
+         </header>
+ 
+         <div class="cards">
+           <article class="card">
+-            <div class="card-icon" aria-hidden="true">📱</div>
+-            <h3>Responsividade (Mobile)</h3>
+-            <p>Corrijo quebras, overflow, botões espremidos e layout desalinhado no celular.</p>
++            <div class="card-icon" aria-hidden="true">⚡</div>
++            <h3>Landing Page Express (principal)</h3>
++            <p>Página de alta conversão entregue em 24–72h, com visual profissional, foco em celular e chamada para ação clara para WhatsApp, formulário ou agendamento.</p>
+           </article>
+ 
+           <article class="card">
+-            <div class="card-icon" aria-hidden="true">🧩</div>
+-            <h3>Correções rápidas</h3>
+-            <p>Arrumo bugs visuais e problemas que impedem o usuário de clicar, navegar ou entender.</p>
+-          </article>
+-
+-          <article class="card">
+-            <div class="card-icon" aria-hidden="true">🎨</div>
+-            <h3>Melhorias visuais</h3>
+-            <p>Refino espaçamento, tipografia, hierarquia e consistência para ficar mais profissional.</p>
+-          </article>
+-
+-          <article class="card">
+-            <div class="card-icon" aria-hidden="true">🚀</div>
+-            <h3>Performance</h3>
+-            <p>Otimizo imagens, fontes e detalhes que deixam o site lento (principalmente no mobile).</p>
+-          </article>
+-
+-          <article class="card">
+-            <div class="card-icon" aria-hidden="true">📝</div>
+-            <h3>Conteúdo e CTAs</h3>
+-            <p>Troca de textos/imagens, criação de seção, botões de contato e melhorias de conversão.</p>
+-          </article>
+-
+-          <article class="card">
+-            <div class="card-icon" aria-hidden="true">🌍</div>
+-            <h3>Publicação (Deploy)</h3>
+-            <p>Deixo o site no ar com link de acesso e instruções simples pro cliente.</p>
++            <div class="card-icon" aria-hidden="true">🛠️</div>
++            <h3>Manutenção (à combinar)</h3>
++            <p>Após a entrega, faço ajustes pontuais quando necessário. Escopo e prazo definidos caso a caso.</p>
+           </article>
+         </div>
+       </div>
+     </section>
+ 
+     <!-- ANTES E DEPOIS -->
+     <section class="section alt" id="provas">
+       <div class="container">
+         <header class="section-head">
+-          <h2>Antes &amp; Depois</h2>
+-          <p>Exemplos de problemas comuns que eu resolvo em manutenção.</p>
++          <h2>Antes &amp; Depois da Landing Express</h2>
++          <p>Como a comunicação muda quando a página é feita para converter.</p>
+         </header>
+ 
+         <div class="before-after">
+           <article class="ba">
+-            <h3>Menu mobile</h3>
++            <h3>Mensagem principal</h3>
+             <div class="ba-grid">
+               <div class="ba-box">
+                 <p class="ba-tag">Antes</p>
+                 <ul role="list">
+-                  <li>Menu cobre a tela</li>
+-                  <li>Não fecha</li>
+-                  <li>Links pequenos</li>
++                  <li>Texto genérico</li>
++                  <li>Oferta confusa</li>
++                  <li>Sem direção</li>
+                 </ul>
+               </div>
+               <div class="ba-box good">
+                 <p class="ba-tag">Depois</p>
+                 <ul role="list">
+-                  <li>Abre/fecha suave</li>
+-                  <li>Foco e acessibilidade</li>
+-                  <li>Toque confortável</li>
++                  <li>Oferta clara em segundos</li>
++                  <li>Benefício direto</li>
++                  <li>Decisão mais rápida</li>
+                 </ul>
+               </div>
+             </div>
+           </article>
+ 
+           <article class="ba">
+-            <h3>Layout quebrando</h3>
++            <h3>Chamada para ação</h3>
+             <div class="ba-grid">
+               <div class="ba-box">
+                 <p class="ba-tag">Antes</p>
+                 <ul role="list">
+-                  <li>Overflow lateral</li>
+-                  <li>Cards desalinhados</li>
+-                  <li>Espaçamento estranho</li>
++                  <li>Botão escondido</li>
++                  <li>Contato difícil</li>
++                  <li>Perda de oportunidades</li>
+                 </ul>
+               </div>
+               <div class="ba-box good">
+                 <p class="ba-tag">Depois</p>
+                 <ul role="list">
+-                  <li>Grid consistente</li>
+-                  <li>Tipografia melhor</li>
+-                  <li>Visual mais limpo</li>
++                  <li>CTA em destaque</li>
++                  <li>Contato em 1 clique</li>
++                  <li>Mais pedidos e mensagens</li>
+                 </ul>
+               </div>
+             </div>
+           </article>
+ 
+           <article class="ba">
+-            <h3>Velocidade</h3>
++            <h3>Confiança visual</h3>
+             <div class="ba-grid">
+               <div class="ba-box">
+                 <p class="ba-tag">Antes</p>
+                 <ul role="list">
+-                  <li>Imagens pesadas</li>
+-                  <li>Fonte lenta</li>
+-                  <li>Carregamento ruim</li>
++                  <li>Visual amador</li>
++                  <li>Informações soltas</li>
++                  <li>Baixa credibilidade</li>
+                 </ul>
+               </div>
+               <div class="ba-box good">
+                 <p class="ba-tag">Depois</p>
+                 <ul role="list">
+-                  <li>Imagens otimizadas</li>
+-                  <li>Melhor LCP/CLS</li>
+-                  <li>Mobile mais rápido</li>
++                  <li>Visual profissional</li>
++                  <li>Seções organizadas</li>
++                  <li>Mais confiança para comprar</li>
+                 </ul>
+               </div>
+             </div>
+           </article>
+         </div>
+ 
+         <p class="note">
+-          * Esses são exemplos típicos. Conforme seus projetos reais entrarem, a gente substitui por casos reais com links.
++          * Exemplos de cenário para mostrar o impacto de uma landing pensada para resultado.
+         </p>
+       </div>
+     </section>
+ 
+     <!-- PROJETOS -->
+     <section class="section" id="projetos">
+       <div class="container">
+         <header class="section-head">
+-          <h2>Projetos</h2>
+-          <p>Alguns exemplos (podem ser fictícios no início — o importante é mostrar entrega e qualidade).</p>
++          <h2>Exemplos de páginas</h2>
++          <p>Modelos de Landing Express para negócios locais e profissionais autônomos.</p>
+         </header>
+ 
+         <div class="projects">
+           <article class="project">
+             <div class="project-thumb" aria-hidden="true">
+               <span class="thumb-badge">Landing</span>
+             </div>
+             <h3>Pet Shop Amigo Animal</h3>
+-            <p>Landing responsiva com CTA no WhatsApp, serviços e depoimentos.</p>
++            <p>Página para gerar pedidos no WhatsApp com oferta clara, prova social e chamada forte.</p>
+             <div class="project-links">
+               <button class="link link-disabled" type="button" disabled>Ver online</button>
+ <button class="link link-disabled" type="button" disabled>Código</button>
+ 
+             </div>
+           </article>
+ 
+           <article class="project">
+             <div class="project-thumb" aria-hidden="true">
+               <span class="thumb-badge">Institucional</span>
+             </div>
+             <h3>Clínica Sorriso Claro</h3>
+-            <p>Site simples com seções, agendamento e melhorias de tipografia.</p>
++            <p>Landing para agendamento com foco em confiança, diferenciais e botão de contato visível.</p>
+             <div class="project-links">
+               <button class="link link-disabled" type="button" disabled>Ver online</button>
+ <button class="link link-disabled" type="button" disabled>Código</button>
+ 
+             </div>
+           </article>
+ 
+           <article class="project">
+             <div class="project-thumb" aria-hidden="true">
+               <span class="thumb-badge">Produto</span>
+             </div>
+             <h3>Loja Tech Store</h3>
+-            <p>Página de produto com destaque de benefícios, FAQ e contato rápido.</p>
++            <p>Página de oferta com benefícios objetivos, perguntas frequentes e CTA para fechar rápido.</p>
+             <div class="project-links">
               <button class="link link-disabled" type="button" disabled>Ver online</button>
-<button class="link link-disabled" type="button" disabled>Código</button>
-
-            </div>
-          </article>
-
-          <article class="project">
-            <div class="project-thumb" aria-hidden="true">
-              <span class="thumb-badge">Institucional</span>
-            </div>
-            <h3>Clínica Sorriso Claro</h3>
-            <p>Site simples com seções, agendamento e melhorias de tipografia.</p>
-            <div class="project-links">
-              <button class="link link-disabled" type="button" disabled>Ver online</button>
-<button class="link link-disabled" type="button" disabled>Código</button>
-
-            </div>
-          </article>
-
-          <article class="project">
-            <div class="project-thumb" aria-hidden="true">
-              <span class="thumb-badge">Produto</span>
-            </div>
-            <h3>Loja Tech Store</h3>
-            <p>Página de produto com destaque de benefícios, FAQ e contato rápido.</p>
-            <div class="project-links">
-             <button class="link link-disabled" type="button" disabled>Ver online</button>
-<button class="link link-disabled" type="button" disabled>Código</button>
-
-            </div>
-          </article>
-        </div>
-
-        <p class="micro center">
-          Dica: quando você publicar esses projetos, eu te ajudo a trocar os links e colocar prints reais.
-        </p>
-      </div>
-    </section>
-
-    <!-- PROCESSO -->
-    <section class="section alt" id="processo">
-      <div class="container">
-        <header class="section-head">
-          <h2>Como funciona</h2>
-          <p>Processo curto pra reduzir contato e acelerar entrega.</p>
-        </header>
-
-        <ol class="steps">
-          <li class="step">
-            <span class="step-num">1</span>
-            <div>
-              <h3>Você manda o link</h3>
-              <p>Me envie o site + o que precisa mudar (print ajuda muito).</p>
-            </div>
-          </li>
-          <li class="step">
-            <span class="step-num">2</span>
-            <div>
-              <h3>Eu analiso e fecho o escopo</h3>
-              <p>Eu te passo prazo e valor com base no problema real (sem chute).</p>
-            </div>
-          </li>
-          <li class="step">
-            <span class="step-num">3</span>
-            <div>
-              <h3>Eu faço a melhoria</h3>
-              <p>Trabalho em uma prévia e te envio pra você aprovar.</p>
-            </div>
-          </li>
-          <li class="step">
-            <span class="step-num">4</span>
-            <div>
-              <h3>Publicação e entrega</h3>
-              <p>Com tudo aprovado, publico e te mando o link final + orientações.</p>
-            </div>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="section" id="faq">
-      <div class="container">
-        <header class="section-head">
-          <h2>Perguntas frequentes</h2>
-          <p>Respostas rápidas (pra você decidir sem medo).</p>
-        </header>
-
-        <div class="faq" role="region" aria-label="Perguntas frequentes">
-          <details class="faq-item">
-            <summary>Quanto tempo leva?</summary>
-            <div class="faq-body">
-              <p>Ajustes comuns geralmente ficam prontos em <strong>24 a 72 horas</strong>. Se for algo maior, eu aviso antes.</p>
-            </div>
-          </details>
-
-          <details class="faq-item">
-            <summary>Que tipo de site você ajusta?</summary>
-            <div class="faq-body">
-              <p>Sites estáticos (HTML/CSS/JS) e ajustes básicos em projetos comuns. Se eu perceber que é algo fora do escopo (ex: sistema complexo), eu te explico e sugiro um caminho.</p>
-            </div>
-          </details>
-
-          <details class="faq-item">
-            <summary>Você mexe com WordPress?</summary>
-            <div class="faq-body">
-              <p>Posso fazer <strong>ajustes visuais e responsividade</strong> (CSS), correções simples e melhorias de layout. Para plugins/sistemas complexos, eu avalio caso a caso.</p>
-            </div>
-          </details>
-
-          <details class="faq-item">
-            <summary>Como funciona o pagamento?</summary>
-            <div class="faq-body">
-              <p>Depois que eu analisar o escopo, combinamos valor e forma de pagamento. Em serviços curtos, normalmente é simples e direto.</p>
-            </div>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTATO -->
-    <section class="contact" id="contato">
-      <div class="container contact-inner">
-        <div class="contact-copy">
-          <h2>Vamos resolver seu site?</h2>
-          <p>
-            Me mande o link + o que precisa mudar. Se tiver prints ou gravação de tela, melhor ainda.
-          </p>
-
-          <div class="contact-actions">
-            <a class="btn btn-primary" href="https://wa.me/5537984254242" target="_blank" rel="noreferrer">
-              WhatsApp: (37) 98425-4242
-              <span aria-hidden="true">→</span>
-            </a>
-    <a class="btn btn-ghost"
-   href="https://mail.google.com/mail/?view=cm&fs=1&to=savaxsilvier@gmail.com&su=Or%C3%A7amento%20de%20site&body=Oi%20S%C3%A1vio%2C%20meu%20site%20%C3%A9%3A%20%0A%0APreciso%20de%3A%20"
-   target="_blank" rel="noreferrer">
-  Email
-</a>
-<div class="contact-box">
-  <p>
-    📩 Email:
-    <a href="mailto:savaxsilvier@gmail.com">
-      savaxsilvier@gmail.com
-    </a>
-  </p>
-
-  <button class="btn btn-mini" type="button" data-copy-email>
-    Copiar email
-  </button>
-</div>
-
-
-          </div>
-
-          <p class="micro">
-            <strong>Obs.:</strong> eu sempre confirmo escopo, prazo e valor antes de começar — sem surpresa.
-          </p>
-        </div>
-
-        <aside class="contact-card" aria-label="Resumo do que você recebe">
-          <h3>Você recebe</h3>
-          <ul role="list">
-            <li>✅ Ajuste aplicado e testado no mobile</li>
-            <li>✅ Prévia para aprovar</li>
-            <li>✅ Publicação + link final</li>
-            <li>✅ Checklist antes de entregar</li>
-          </ul>
-<button class="btn btn-mini" type="button" data-scroll-top>
-  Voltar ao topo
-</button>
-
-        </aside>
-      </div>
-    </section>
-
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>© <span id="year"></span> Sávio Max. Manutenção e melhorias de sites.</p>
-        <div class="footer-links">
-          <a href="#servicos">Serviços</a>
-          <a href="#projetos">Projetos</a>
-          <a href="https://wa.me/5537984254242" target="_blank" rel="noreferrer">WhatsApp</a>
-        </div>
-      </div>
-    </footer>
-  </main>
-<button class="to-top" type="button" data-scroll-top aria-label="Voltar ao topo">
-  ↑
-</button>
-
-  <script src="script.js"></script>
-</body>
-</html>
+ <button class="link link-disabled" type="button" disabled>Código</button>
+ 
+             </div>
+           </article>
+         </div>
+ 
+         <p class="micro center">
+-          Dica: quando você publicar esses projetos, eu te ajudo a trocar os links e colocar prints reais.
++          Quer algo nesse estilo para o seu negócio? Me chama no WhatsApp e eu te mostro o melhor formato.
+         </p>
+       </div>
+     </section>
+ 
+     <!-- PROCESSO -->
+     <section class="section alt" id="processo">
+       <div class="container">
+         <header class="section-head">
+           <h2>Como funciona</h2>
+-          <p>Processo curto pra reduzir contato e acelerar entrega.</p>
++          <p>3 passos simples para sua landing sair do papel com rapidez.</p>
+         </header>
+ 
+         <ol class="steps">
+           <li class="step">
+             <span class="step-num">1</span>
+             <div>
+-              <h3>Você manda o link</h3>
+-              <p>Me envie o site + o que precisa mudar (print ajuda muito).</p>
++              <h3>Você me passa seu objetivo</h3>
++              <p>Me diga o que você quer vender ou captar e para quem é a oferta.</p>
+             </div>
+           </li>
+           <li class="step">
+             <span class="step-num">2</span>
+             <div>
+-              <h3>Eu analiso e fecho o escopo</h3>
+-              <p>Eu te passo prazo e valor com base no problema real (sem chute).</p>
++              <h3>Eu monto a estrutura da página</h3>
++              <p>Organizo texto, seções e botão de ação para facilitar a decisão do cliente.</p>
+             </div>
+           </li>
+           <li class="step">
+             <span class="step-num">3</span>
+             <div>
+-              <h3>Eu faço a melhoria</h3>
+-              <p>Trabalho em uma prévia e te envio pra você aprovar.</p>
+-            </div>
+-          </li>
+-          <li class="step">
+-            <span class="step-num">4</span>
+-            <div>
+-              <h3>Publicação e entrega</h3>
+-              <p>Com tudo aprovado, publico e te mando o link final + orientações.</p>
++              <h3>Você aprova e eu publico</h3>
++              <p>Após seu ok, a landing vai ao ar pronta para receber contatos e pedidos.</p>
+             </div>
+           </li>
+         </ol>
+       </div>
+     </section>
+ 
+     <!-- FAQ -->
+     <section class="section" id="faq">
+       <div class="container">
+         <header class="section-head">
+           <h2>Perguntas frequentes</h2>
+-          <p>Respostas rápidas (pra você decidir sem medo).</p>
++          <p>Dúvidas comuns antes de contratar a Landing Page Express.</p>
+         </header>
+ 
+         <div class="faq" role="region" aria-label="Perguntas frequentes">
+           <details class="faq-item">
+-            <summary>Quanto tempo leva?</summary>
++            <summary>Em quanto tempo minha landing fica pronta?</summary>
+             <div class="faq-body">
+-              <p>Ajustes comuns geralmente ficam prontos em <strong>24 a 72 horas</strong>. Se for algo maior, eu aviso antes.</p>
++              <p>O prazo padrão é de <strong>24 a 72 horas</strong>, conforme o material enviado e o tamanho da página.</p>
+             </div>
+           </details>
+ 
+           <details class="faq-item">
+-            <summary>Que tipo de site você ajusta?</summary>
++            <summary>Essa landing serve para qual tipo de negócio?</summary>
+             <div class="faq-body">
+-              <p>Sites estáticos (HTML/CSS/JS) e ajustes básicos em projetos comuns. Se eu perceber que é algo fora do escopo (ex: sistema complexo), eu te explico e sugiro um caminho.</p>
++              <p>Serve para negócios locais, profissionais liberais, prestadores de serviço e produtos digitais que precisam gerar mais contatos ou pedidos.</p>
+             </div>
+           </details>
+ 
+           <details class="faq-item">
+-            <summary>Você mexe com WordPress?</summary>
++            <summary>O que está incluso na Landing Page Express?</summary>
+             <div class="faq-body">
+-              <p>Posso fazer <strong>ajustes visuais e responsividade</strong> (CSS), correções simples e melhorias de layout. Para plugins/sistemas complexos, eu avalio caso a caso.</p>
++              <p>Estrutura completa da página, texto orientado a conversão, versão para celular e ajustes básicos para carregamento e usabilidade.</p>
+             </div>
+           </details>
+ 
+           <details class="faq-item">
+-            <summary>Como funciona o pagamento?</summary>
++            <summary>Você também faz manutenção depois?</summary>
+             <div class="faq-body">
+-              <p>Depois que eu analisar o escopo, combinamos valor e forma de pagamento. Em serviços curtos, normalmente é simples e direto.</p>
++              <p>Sim. Se você precisar de alterações depois da entrega, faço manutenção pontual <strong>à combinar</strong>.</p>
+             </div>
+           </details>
+         </div>
+       </div>
+     </section>
+ 
+     <!-- CONTATO -->
+     <section class="contact" id="contato">
+       <div class="container contact-inner">
+         <div class="contact-copy">
+-          <h2>Vamos resolver seu site?</h2>
++          <h2>Vamos colocar sua landing no ar?</h2>
+           <p>
+-            Me mande o link + o que precisa mudar. Se tiver prints ou gravação de tela, melhor ainda.
++            Me envie seu segmento e objetivo. Eu retorno com o formato ideal para sua Landing Page Express.
+           </p>
+ 
+           <div class="contact-actions">
+             <a class="btn btn-primary" href="https://wa.me/5537984254242" target="_blank" rel="noreferrer">
+-              WhatsApp: (37) 98425-4242
++              Falar no WhatsApp agora
+               <span aria-hidden="true">→</span>
+             </a>
+     <a class="btn btn-ghost"
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=savaxsilvier@gmail.com&su=Or%C3%A7amento%20de%20site&body=Oi%20S%C3%A1vio%2C%20meu%20site%20%C3%A9%3A%20%0A%0APreciso%20de%3A%20"
+    target="_blank" rel="noreferrer">
+   Email
+ </a>
+ <div class="contact-box">
+   <p>
+     📩 Email:
+     <a href="mailto:savaxsilvier@gmail.com">
+       savaxsilvier@gmail.com
+     </a>
+   </p>
+ 
+   <button class="btn btn-mini" type="button" data-copy-email>
+     Copiar email
+   </button>
+ </div>
+ 
+ 
+           </div>
+ 
+           <p class="micro">
+-            <strong>Obs.:</strong> eu sempre confirmo escopo, prazo e valor antes de começar — sem surpresa.
++            <strong>Obs.:</strong> prazo, escopo e investimento são alinhados antes de começar.
+           </p>
+         </div>
+ 
+         <aside class="contact-card" aria-label="Resumo do que você recebe">
+-          <h3>Você recebe</h3>
++          <h3>Na Landing Express você recebe</h3>
+           <ul role="list">
+-            <li>✅ Ajuste aplicado e testado no mobile</li>
+-            <li>✅ Prévia para aprovar</li>
+-            <li>✅ Publicação + link final</li>
+-            <li>✅ Checklist antes de entregar</li>
++            <li>✅ Página focada em conversão</li>
++            <li>✅ Estrutura pensada para celular</li>
++            <li>✅ Publicação com link final</li>
++            <li>✅ Ajustes pontuais de refinamento</li>
+           </ul>
+ <button class="btn btn-mini" type="button" data-scroll-top>
+   Voltar ao topo
+ </button>
+ 
+         </aside>
+       </div>
+     </section>
+ 
+     <footer class="site-footer">
+       <div class="container footer-inner">
+-        <p>© <span id="year"></span> Sávio Max. Manutenção e melhorias de sites.</p>
++        <p>© <span id="year"></span> Sávio Max. Landing Page Express para negócios e profissionais.</p>
+         <div class="footer-links">
+           <a href="#servicos">Serviços</a>
+           <a href="#projetos">Projetos</a>
+           <a href="https://wa.me/5537984254242" target="_blank" rel="noreferrer">WhatsApp</a>
+         </div>
+       </div>
+     </footer>
+   </main>
+ <button class="to-top" type="button" data-scroll-top aria-label="Voltar ao topo">
+   ↑
+ </button>
+ 
+   <script src="script.js"></script>
+ </body>
+ </html>
