@@ -8,7 +8,9 @@ const $$ = (selector, scope = document) => [...scope.querySelectorAll(selector)]
 // Ano no footer
 // =========================
 const yearEl = $("#year");
-if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+if (yearEl) {
+  yearEl.textContent = String(new Date().getFullYear());
+}
 
 // =========================
 // Menu Mobile
@@ -50,7 +52,10 @@ if (toggle && nav) {
 
     const clickedInsideMenu = nav.contains(e.target);
     const clickedToggle = toggle.contains(e.target);
-    if (!clickedInsideMenu && !clickedToggle) setMenu(false);
+
+    if (!clickedInsideMenu && !clickedToggle) {
+      setMenu(false);
+    }
   });
 }
 
@@ -75,17 +80,22 @@ scrollTopButtons.forEach((btn) => {
   btn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
-  const copyBtn = document.querySelector("[data-copy-email]");
+});
+
+// =========================
+// Copiar email
+// =========================
+const copyBtn = document.querySelector("[data-copy-email]");
 if (copyBtn) {
   copyBtn.addEventListener("click", async () => {
     try {
       await navigator.clipboard.writeText("savaxsilvier@gmail.com");
       copyBtn.textContent = "Copiado ✅";
-      setTimeout(() => (copyBtn.textContent = "Copiar email"), 1400);
+      setTimeout(() => {
+        copyBtn.textContent = "Copiar email";
+      }, 1400);
     } catch {
       alert("Copie manualmente: savaxsilvier@gmail.com");
     }
   });
 }
-
-});
